@@ -87,7 +87,7 @@ export class QuickSettings {
         <div class="qs-section">
           <div class="qs-section-title">API Access</div>
           <div class="qs-row" style="flex-direction: column; align-items: stretch; gap: 6px;">
-            <span>Bearer token (set only if the server enforces RUVIEW_API_TOKEN)</span>
+            <span>Bearer token (set only if the server enforces HOMEYE_API_TOKEN)</span>
             <input type="password" id="qs-api-token" class="qs-text-input" placeholder="Paste token..." autocomplete="off" style="width: 100%; box-sizing: border-box;">
             <div style="display: flex; gap: 8px;">
               <button class="qs-btn" id="qs-api-token-save">Save & Apply</button>

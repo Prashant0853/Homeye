@@ -99,11 +99,11 @@ export class DataExport {
 
     if (format === 'json') {
       content = JSON.stringify(data, null, 2);
-      filename = `ruview-data-${this.timestamp()}.json`;
+      filename = `homeye-data-${this.timestamp()}.json`;
       mimeType = 'application/json';
     } else {
       content = this.toCSV(data);
-      filename = `ruview-data-${this.timestamp()}.csv`;
+      filename = `homeye-data-${this.timestamp()}.csv`;
       mimeType = 'text/csv';
     }
 
